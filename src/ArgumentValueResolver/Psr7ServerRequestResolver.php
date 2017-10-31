@@ -1,6 +1,6 @@
 <?php
 
-namespace Sergiors\Silex\Provider;
+namespace Sergiors\Silex\ArgumentValueResolver;
 
 use Symfony\Bridge\PsrHttpMessage\HttpMessageFactoryInterface;
 use Symfony\Component\HttpFoundation\Request;

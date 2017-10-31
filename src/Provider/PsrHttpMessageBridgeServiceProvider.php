@@ -11,6 +11,7 @@ use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent;
 use Symfony\Bridge\PsrHttpMessage\Factory\HttpFoundationFactory;
 use Symfony\Bridge\PsrHttpMessage\Factory\DiactorosFactory;
+use Sergiors\Silex\ArgumentValueResolver\Psr7ServerRequestResolver;
 
 /**
  * @author Sérgio Rafael Siqueira <sergio@inbep.com.br>
